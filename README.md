@@ -13,7 +13,7 @@ Command used to configure the ssmtp utility:
    $nano /etc/ssmtp/ssmtp.conf
    ```
 
-Command to execute the bash script to send the email using the contents of the text file:
+Command used to run the script:
    ```
-   $ssmtp user@domain.com < msg.txt
+   ./email.sh
    ```
